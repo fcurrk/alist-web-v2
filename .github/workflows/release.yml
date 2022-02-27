@@ -2,14 +2,13 @@ name: release
 
 on:
   push:
-    tags:
-      - '*'
+    branches: [ master ]
 
 jobs:
   release:
     strategy:
       matrix:
-        platform: [ubuntu-latest]
+        platform: [ubuntu-18.04]
     name: Release
     runs-on: ${{ matrix.platform }}
     steps:
