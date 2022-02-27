@@ -10,7 +10,9 @@ const Footer = () => {
     <Center py="4" className="footer">
       <VStack>
         <HStack spacing="2" className="line0">
-            {t("©2019-2022 ")} {getSetting("title")}
+            <Link isExternal href="https://github.com/Xhofe/alist">
+	    {t("©2019-2022 ")} {getSetting("title")}
+	     </Link>
         </HStack>
         {getSetting("site beian") && (
           <Link className="line1" isExternal href="https://beian.miit.gov.cn/">

@@ -195,7 +195,7 @@ export default function Swibc() {
             color={useColorModeValue("brand.500", "white")}
             fontWeight="semibold"
           >
-            {t("title")} {t("Manage")}
+            {t("Manage")}
           </Text>
         </Flex>
       </Link>
