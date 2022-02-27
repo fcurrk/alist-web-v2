@@ -195,7 +195,7 @@ export default function Swibc() {
             color={useColorModeValue("brand.500", "white")}
             fontWeight="semibold"
           >
-            Alist {t("Manage")}
+            {t("title")} {t("Manage")}
           </Text>
         </Flex>
       </Link>
@@ -290,14 +290,6 @@ export default function Swibc() {
           <Box w="96" display={{ base: "none", md: "flex" }}></Box>
 
           <Flex align="center">
-            <Clink href="https://github.com/Xhofe/alist" isExternal>
-              <Icon
-                boxSize={6}
-                color="gray.500"
-                as={DiGithubAlt}
-                cursor="pointer"
-              />
-            </Clink>
             <Tooltip
               shouldWrapChildren
               hasArrow
