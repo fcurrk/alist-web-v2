@@ -8,7 +8,7 @@ jobs:
   release:
     strategy:
       matrix:
-        platform: [ubuntu-18.04]
+        platform: [ubuntu-latest]
     name: Release
     runs-on: ${{ matrix.platform }}
     steps:
