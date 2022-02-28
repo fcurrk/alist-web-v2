@@ -195,7 +195,7 @@ export default function Swibc() {
             color={useColorModeValue("brand.500", "white")}
             fontWeight="semibold"
           >
-            ${t("Manage Page")}
+            {t("Manage Page")}
           </Text>
         </Flex>
       </Link>
