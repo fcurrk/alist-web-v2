@@ -85,7 +85,7 @@ const zh = {
   "music cover": "音乐封面",
   "site beian": "站点备案",
   "ERROR": "错误",
-  "Alist Manage": "Alist管理",
+  "Manage Page": "管理后台",
   "list": "列表",
   "grid": "网格",
   "switch to layout view": "切换为{{layout}}布局",

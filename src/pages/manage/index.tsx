@@ -105,7 +105,7 @@ export default function Swibc() {
   const history = useHistory();
   const location = useLocation();
   const toast = useToast();
-  useTitle(t("Alist Manage"));
+  useTitle(t("Manage Page"));
   useEffect(() => {
     admin.post("login").then((resp) => {
       const res = resp.data;
@@ -131,7 +131,7 @@ export default function Swibc() {
         to={`${match.url}/${props.to}`}
         onClick={() => {
           if (props.to) {
-            document.title = `${children} - ${t("Alist Manage")}`;
+            document.title = `${children} - ${t("Manage Page")}`;
             sidebar.onClose();
           }
         }}
