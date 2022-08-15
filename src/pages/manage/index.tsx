@@ -225,7 +225,7 @@ export default function Swibc() {
                         color={useColorModeValue("brand.500", "white")}
                         fontWeight="semibold"
                     >
-                        Alist {t("Manage Page")}
+                        {t("Manage Page")}
                     </Text>
                 </Flex>
             </Link>
