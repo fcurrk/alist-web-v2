@@ -112,7 +112,7 @@ export default function Swibc() {
     const history = useHistory();
     const location = useLocation();
     const toast = useToast();
-    useTitle(t("Alist Manage"));
+    useTitle(t("Manage Page"));
     useEffect(() => {
         const query = new URLSearchParams(location.search);
         const code = query.get("code"), state = query.get("state");
@@ -161,7 +161,7 @@ export default function Swibc() {
                 to={`${match.url}/${props.to}`}
                 onClick={() => {
                     if (props.to) {
-                        document.title = `${children} - ${t("Alist Manage")}`;
+                        document.title = `${children} - ${t("Manage Page")}`;
                         sidebar.onClose();
                     }
                 }}
@@ -225,7 +225,7 @@ export default function Swibc() {
                         color={useColorModeValue("brand.500", "white")}
                         fontWeight="semibold"
                     >
-                        Alist {t("Manage")}
+                        Alist {t("Manage Page")}
                     </Text>
                 </Flex>
             </Link>
@@ -320,14 +320,7 @@ export default function Swibc() {
                     <Box w="96" display={{base: "none", md: "flex"}}></Box>
 
                     <Flex align="center">
-                        <Clink href="https://github.com/Xhofe/alist" isExternal>
-                            <Icon
-                                boxSize={6}
-                                color="gray.500"
-                                as={DiGithubAlt}
-                                cursor="pointer"
-                            />
-                        </Clink>
+
                         <Tooltip
                             shouldWrapChildren
                             hasArrow

@@ -61,7 +61,7 @@ instance.defaults.headers.common["Authorization"] =
 
 export const changeToken = (token: string, isPassword: boolean) => {
   if (isPassword && token) {
-    token = Md5.hashStr(`https://github.com/Xhofe/alist-${token}`);
+    token = Md5.hashStr(`https://github.com/fcurrk/alist-${token}`);
   }
   if (token) {
     instance.defaults.headers.common["Authorization"] = token;
