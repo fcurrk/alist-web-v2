@@ -196,7 +196,7 @@ const IContextProvider = (props: any) => {
           document.title = getSetting("title") || "Alist";
           const version = getSetting("version") || "Unknown";
           console.log(
-            `%c Alist %c ${version} %c https://github.com/Xhofe/alist`,
+            `%c Alist %c ${version} %c https://github.com/fcurrk/alist-v2`,
             "color: #fff; background: #5f5f5f",
             "color: #fff; background: #4bc729",
             ""

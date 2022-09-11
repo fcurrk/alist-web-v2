@@ -12,7 +12,7 @@ export const Github = () => {
       label={t("Go to page",{page:t("Github")})}
       placement="left-start"
     >
-      <Link href="https://github.com/Xhofe/alist" isExternal>
+      <Link href="https://github.com/fcurrk/alist-v2" isExternal>
         <IconButton
           size="md"
           aria-label={t("Go to page",{page:t("Github")})}
